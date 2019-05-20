@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 20;
+
+
+
+
+    font-family: 'Indie Flower', cursive;
+
+
+
+}
+
+
+body{
+	
+	background-image: url("../background.jpg");
+	background-size: cover; 
+	color:white;
+	font-size:125%;
+	background-color:#eeeeee;
+}
+
+
+
+
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 70%;
+	float:left;
+}
+
+.sidebar{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 25%;
+	float: right;
+	background: #fff;
+	width:25%;
+}
+
+.sidebar div{
+	background: #fff;
+	padding:30px;
+}
+
+
+
+.tm-header{
+	background:#261c60;
+}
+.tm-nav{
+	float: right;
+	color:white;
+}
+
+.tm-nav ul li{
+	display: inline-block;
+}
+
+.tm-nav ul li a{
+	padding: 10px 20px;
+	color:white;
+	line-height: 70px;
+	font-size: 1.5em;
+
+}
+
+.tm-nav ul li a:hover{
+	color:red;
+
+}
+
+.myphoto{
+	border-radius: 50%;
+	float: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+h1,h2,h3{
+	margin-bottom: 10px;
+}
+
+ul,ol{
+
+	margin-bottom: 20px;
+}
+
+.footer{
+	
+	position: absolute; bottom: 0; left: 0; right: 0;
+	background:#261c60;
+	text-align:center;
+	padding: 20px;	
+}
+
+
+.clearfix::after{
+	clear: both;
+	display: block;
+	visibility: none;
+	content:" ";
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td,th{
+	border:1px solid #999;
+}
+
+tr:nth-child(2n){
+	background: #ccc;
+}
+
+.address{
+	text-align:center;
+}
